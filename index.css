@@ -59,7 +59,7 @@ color: white;}
     margin-right: auto;
 }
 
-#shortcutButtons {
+#shortcutButtons {display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -75,8 +75,3 @@ color: white;}
     border: none;
 }
 
-@media only screen and (max-width: 600px) {
-    .count-btn {
-      margin-bottom: 10px;
-    }
-  }
