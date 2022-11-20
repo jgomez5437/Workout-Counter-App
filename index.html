@@ -10,8 +10,16 @@
         <div class="workoutApp">
         <h1>Amount of workout reps:</h1>
         <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
+        <button class="main-btn" id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button class="main-btn" id="decrement-btn" onclick="decrement()">DECREMENT</button>
+        <button class="main-btn" id="save-btn" onclick="save()">SAVE</button>
+        <div id="shortcutButtons">
+            <button class="count-btn" id="ten" onclick="addTen()">10</button>
+            <button class="count-btn" id="twenty" onclick="addTwenty()">20</button>
+            <button class="count-btn" id="thirty" onclick="addThirty()">30</button>
+            <button class="count-btn" id="forty" onclick="addForty()">40</button>
+            <button class="count-btn" id="fifty" onclick="addFifty()">50</button>
+        </div>
         <p id="save-el">Previous entries: </p>
     </div>
         <script src="index.js">
